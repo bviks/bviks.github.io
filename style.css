@@ -1,5 +1,5 @@
 body {
-  margin: 0px 40px;
+  margin: 0px 100px;
 }
 
 header {
@@ -15,7 +15,11 @@ header {
 section {
   position: absolute;
   bottom: 0px;
-  left: 20%;
+  left: 23%;
+  color: #222;
+  letter-spacing: 2px;
+  line-height: 50px;
+
 }
 
 h1 {
@@ -24,11 +28,12 @@ h1 {
   }
 
 span {
-  font-size: 60px;
+  font-size: 65px;
 }
 
 main {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
   color: #222;
   line-height: 1.5;
   margin-top: 50px;
@@ -36,9 +41,9 @@ main {
  }
  
 .paragraph {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto; 
+  width: 700px;
+  margin-left: auto; 
+  margin-right: auto;
 }
 
 ul {
@@ -46,6 +51,7 @@ ul {
 }
 
 .container{
+  width: 850px;
   margin-left: auto;
   margin-right: auto;
   }
@@ -55,15 +61,16 @@ blockquote {
   color: white;
   font-size: 45px;
   background: grey;
-  width: 600px;
-  text-align: center;
-  padding: 25px 0px;
+  text-align: left;
+  padding: 50px 20px;
   position: relative;
+  text-align:center;
+  
 }
 
 blockquote::before{
   content: '\201C';
-  font-size: 60px;
+  font-size: 100px;
   position: absolute;
   top: 0px;
   left: 5px;
