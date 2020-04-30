@@ -80,10 +80,10 @@ h3 {
   margin-bottom: 0px;
 }
 
-second_container {
+//*.second_container {
   width: 800px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*//
 }
 
 .capitalize {
